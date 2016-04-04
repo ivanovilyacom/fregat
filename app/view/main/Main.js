@@ -105,7 +105,7 @@ Ext.define('frigate.view.main.Main', {
 
 Ext.onReady(function() {
     var el = document.getElementById('apploading');
-    if (el && el.remove()) {
+    if (el && el.remove) {
         el.remove();
     }
 });
